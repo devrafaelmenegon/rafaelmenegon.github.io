@@ -511,7 +511,7 @@
                         <img src="assets/img/workCeler.png" alt="" class="work__img">
                         <h3 class="work__title">Design</h3>
 
-                        <a href="#" class="work__button">
+                        <a href="https://dribbble.com/shots/17749657-Celer-Institucional-Document-Design?added_first_shot=true&new_shot_upload=true&utm_source=Clipboard_Shot&utm_campaign=dev_rafael&utm_content=Celer%20-%20Institucional%20Document%20Design&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=dev_rafael&utm_content=Celer%20-%20Institucional%20Document%20Design&utm_medium=Social_Share" class="work__button">
                             Visualizar <i class='bx bx-right-arrow-alt work__icon'></i>
                         </a>
                     </div>
@@ -538,7 +538,7 @@
                         <img src="assets/img/workHappy.png" alt="" class="work__img">
                         <h3 class="work__title">Website</h3>
 
-                        <a href="#" class="work__button">
+                        <a href="https://github.com/C0bal/reactjs-happy-nlw3" class="work__button">
                             Visualizar <i class='bx bx-right-arrow-alt work__icon'></i>
                         </a>
                     </div>
@@ -555,7 +555,7 @@
             </section>
 
             <!--=============== TESTIMONIALS ===============-->
-            <section class="testimonial section">
+            <!-- <section class="testimonial section">
                 <span class="section__subtitle">O que meus clientes disseram</span>
                 <h2 class="section__title">Avaliações</h2>
 
@@ -594,7 +594,7 @@
 
                     <div class="swiper-pagination"></div>
                 </div>
-            </section>
+            </section> -->
 
             <!--=============== CONTACT ===============-->
             <section class="contact section" id="contact">
@@ -641,22 +641,25 @@
                     <div class="contact__content">
                         <h3 class="contact__title">Conte-me sobre seu projeto</h3>
 
-                        <form action="" class="contact__form">
+                        <form action="https://api.staticforms.xyz/submit" method="POST" class="contact__form">
+                            <input type="hidden" name="accessKey" value="74ceb94e-0468-413e-9f59-0c280c5af16e"> <!-- Required -->
+
                             <div class="contact__form-div">
                                 <label for="" class="contact__form-tag">Nome</label>
-                                <input type="text" placeholder="Insira seu nome" class="contact__form-input">
+                                <input name="name" type="text" placeholder="Insira seu nome" class="contact__form-input">
                             </div>
 
                             <div class="contact__form-div">
                                 <label for="" class="contact__form-tag">Email</label>
-                                <input type="email" placeholder="Insira seu email" class="contact__form-input">
+                                <input name="email" type="email" placeholder="Insira seu email" class="contact__form-input">
                             </div>
 
                             <div class="contact__form-div contact__form-area">
                                 <label for="" class="contact__form-tag">Projeto</label>
-                                <textarea name="" id="" cols="30" rows="10" placeholder="Fale sobre seu projeto" class="contact__form-input"></textarea>
+                                <textarea name="message" id="" cols="30" rows="10" placeholder="Fale sobre seu projeto" class="contact__form-input"></textarea>
                             </div>
 
+                            <input type="hidden" name="redirectTo" value="https://devrafaelmenegon.github.io/rafaelmenegon.github.io"> <!-- Optional -->
                             <button class="button">Enviar Mensagem</button>
                         </form>
                     </div>
